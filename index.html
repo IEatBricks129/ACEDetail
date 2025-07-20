@@ -18,17 +18,21 @@
         <nav>
             <div class="container nav-container">
                 <a href="#" class="nav-logo">Kylie Berringer</a>
-                <ul class="nav-links">
+                <ul class="nav-links" id="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+                <!-- Hamburger Menu Button for Mobile -->
+                <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
         </nav>
         <div class="container hero-content">
-            <!-- This h1 will be animated by the script -->
-            <h1 id="animated-name" class="hero-title">ACE Detail</h1>
+            <!-- This h1 will be dynamically filled by the script to create 3D text -->
+            <h1 id="animated-name" class="hero-title" aria-label="ACE Detail"></h1>
             <p class="hero-subtitle">Kylie Berringer</p>
         </div>
     </header>
@@ -37,7 +41,7 @@
         <section id="about" class="container">
             <h2>About Me</h2>
             <p>
-                idfk insert generic about me ig
+                With a lifelong passion for automotive excellence, I founded ACE Detail to provide meticulous, high-quality vehicle care. My goal is to restore the beauty and value of every car I service, treating each one as if it were my own.
             </p>
         </section>
 
@@ -46,19 +50,19 @@
                 <h2>What I Do</h2>
                 <div class="service-cards">
                     <div class="card">
-                        <i class="fas fa-code card-icon"></i>
-                        <h3>Service One</h3>
-                        <p>stuff 1</p>
+                        <i class="fas fa-car-side card-icon"></i>
+                        <h3>Exterior Polish & Wax</h3>
+                        <p>A multi-stage process to remove imperfections, restore shine, and protect your paint.</p>
                     </div>
                     <div class="card">
-                        <i class="fas fa-paint-brush card-icon"></i>
-                        <h3>Service Two</h3>
-                        <p>stuff 2</p>
+                        <i class="fas fa-couch card-icon"></i>
+                        <h3>Interior Deep Clean</h3>
+                        <p>Complete interior rejuvenation, including shampooing, steam cleaning, and conditioning.</p>
                     </div>
                     <div class="card">
-                        <i class="fas fa-bullhorn card-icon"></i>
-                        <h3>Service Three</h3>
-                        <p>stuff 3</p>
+                        <i class="fas fa-gem card-icon"></i>
+                        <h3>Ceramic Coating</h3>
+                        <p>The ultimate long-term protection, providing a durable, hydrophobic, and glossy finish.</p>
                     </div>
                 </div>
             </div>
@@ -69,17 +73,17 @@
                 <h2>My Work</h2>
                 <div class="portfolio-cards">
                     <div class="portfolio-card">
-                        <img src="https://placehold.co/600x400/2c2c2c/ffffff?text=Project+One" alt="A placeholder image for Project One">
+                        <img src="https://placehold.co/600x400/007bff/ffffff?text=Sedan+Restoration" alt="A placeholder image for a sedan restoration project">
                         <div class="portfolio-info">
-                            <h3>Project One</h3>
-                            <p>A brief description of the project and the technologies used.</p>
+                            <h3>Sedan Restoration</h3>
+                            <p>Full paint correction and ceramic coating on a classic sedan.</p>
                         </div>
                     </div>
                     <div class="portfolio-card">
-                        <img src="https://placehold.co/600x400/2c2c2c/ffffff?text=Project+Two" alt="A placeholder image for Project Two">
+                        <img src="https://placehold.co/600x400/007bff/ffffff?text=SUV+Interior" alt="A placeholder image for an SUV interior cleaning project">
                         <div class="portfolio-info">
-                            <h3>Project Two</h3>
-                            <p>A brief description of the project and the technologies used.</p>
+                            <h3>SUV Interior Detail</h3>
+                            <p>Complete interior deep clean for a family SUV.</p>
                         </div>
                     </div>
                 </div>
@@ -88,19 +92,16 @@
 
         <section id="contact" class="container">
             <h2>Get In Touch</h2>
-            <p>You can reach me through email or find me on social media.</p>
+            <p>Ready to give your car the attention it deserves? Contact me for a quote.</p>
             <div class="contact-links">
-                <a href="mailto:youremail@example.com" class="contact-button">
+                <a href="mailto:kylie@acedetail.com" class="contact-button">
                     <i class="fas fa-envelope"></i> Email Me
                 </a>
-                <a href="#" class="social-link" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
                 </a>
-                <a href="#" class="social-link" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="social-link" aria-label="Twitter">
-                    <i class="fab fa-twitter"></i>
+                <a href="#" class="social-link" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
                 </a>
             </div>
         </section>
@@ -108,7 +109,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Kylie Berringer. All Rights Reserved.</p>
+            <p>&copy; 2025 ACE Detail. All Rights Reserved.</p>
         </div>
     </footer>
 
